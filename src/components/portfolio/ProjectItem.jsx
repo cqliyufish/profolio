@@ -1,7 +1,7 @@
 import React from "react";
 import "./project.css";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LanguageIcon from "@material-ui/icons/Language";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import GitHubIcon from "@mui/icons-material/GitHub";
 function ProjectItem({ image, name, desc, github, youtube }) {
   return (
     <div className="projectItem">
@@ -11,7 +11,7 @@ function ProjectItem({ image, name, desc, github, youtube }) {
         <GitHubIcon className="icon" style={{ color: "black" }} />
       </a>
       <a href={youtube} target="_blank" rel="noreferrer">
-        <LanguageIcon className="icon" style={{ color: "black" }} />
+        <YouTubeIcon className="icon" style={{ color: "black" }} />
       </a>
     </div>
   );
