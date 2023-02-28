@@ -67,14 +67,24 @@
     width: 80%;
   }
 
-  .skills {
+  .skills h2 {
     text-align: center;
+    font-size: 30px;
   }
   .list {
     padding: 0;
   }
 
-  .skills h2 {
+  /* .skills h2 {
     font-size: 30px;
+  } */
+  span {
+    /* word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-wrap; */
+    /* display: block;
+    word-break: break-all;
+    white-space: normal; */
+    word-break: break-all;
   }
 }
